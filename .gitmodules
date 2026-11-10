@@ -1,0 +1,12 @@
+[submodule "documents"]
+	path = documents
+	url = git@github.com:Reza1290/m3-m2-documents.git
+[submodule "projects/m3-m2-experiments"]
+	path = projects/m3-m2-experiments
+	url = git@github.com:Reza1290/m3-m2-experiments.git
+[submodule "projects/m3-m2-cdss-app"]
+	path = projects/m3-m2-cdss-app
+	url = git@github.com:Reza1290/m3-m2-cdss-app.git
+[submodule "projects/m3-m2-rebuild"]
+	path = projects/m3-m2-rebuild
+	url = git@github.com:Reza1290/m3-m2-rebuild.git

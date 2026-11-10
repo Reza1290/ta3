@@ -1,0 +1,14 @@
+# Root Workspace Gitignore
+# Ignore large volumetric data & weights
+data/
+weights/
+.venv*/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.zip
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
