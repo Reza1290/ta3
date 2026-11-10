@@ -1,8 +1,17 @@
 # Root Workspace Gitignore
-# Ignore large volumetric data & weights
-data/*
-!data/README.md
+# Ignore raw 3D volumetric data & large archives
+data/raw/
+data/toothfairy2/
+data/custom/gpt-astra-labeled/
+data/review/
+
+# Whitelist labeled data, manifests, and README
+!data/processed/
 !data/manifests/
+!data/custom/
+!data/README.md
+
+# Ignore model checkpoint weights
 weights/*
 !weights/README.md
 
