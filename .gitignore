@@ -1,7 +1,11 @@
 # Root Workspace Gitignore
 # Ignore large volumetric data & weights
-data/
-weights/
+data/*
+!data/README.md
+!data/manifests/
+weights/*
+!weights/README.md
+
 .venv*/
 .pytest_cache/
 __pycache__/

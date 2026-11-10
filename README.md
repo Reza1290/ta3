@@ -67,6 +67,9 @@ D:\Workspace\TA3/
 ```
 
 ### Setup Link Data & Weights di Lingkungan Baru (Windows)
+Untuk panduan detail mengenai pengunduhan dataset mentah, ekstraksi crop 2D, dan pengelolaan data berukuran besar, baca panduan lengkap di:
+👉 [**DATA_SETUP.md — Panduan Setup Data Ground-Truth & Volumetrik CBCT**](DATA_SETUP.md)
+
 Jika berpindah perangkat, cukup hubungkan folder dataset fisik ke proyek dengan Windows NTFS Junction:
 ```powershell
 New-Item -ItemType Junction -Path "projects\m3-m2-experiments\data" -Target "D:\Workspace\TA3\data"
