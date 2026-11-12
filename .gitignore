@@ -4,6 +4,13 @@ data/raw/
 data/toothfairy2/
 data/custom/gpt-astra-labeled/
 data/review/
+data/DICOM*/
+data/benchmark_eval/
+data/masks/
+*.mha
+*.dcm
+*.nii
+*.nii.gz
 
 # Whitelist labeled data, manifests, and README
 !data/processed/
@@ -11,9 +18,12 @@ data/review/
 !data/custom/
 !data/README.md
 
-# Ignore model checkpoint weights
+# Ignore model checkpoint weights & run outputs
 weights/*
 !weights/README.md
+runners/outputs/
+*.pth
+*.pt
 
 .venv*/
 .pytest_cache/

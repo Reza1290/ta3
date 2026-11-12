@@ -1,0 +1,2013 @@
+{
+  "run_info": {
+    "model_agent": "Gemini-3.8 / Antigravity Multimodal Visual AI",
+    "target_directory": "data/custom/gemini-3.8",
+    "methodology": "100% PURE MULTIMODAL VISION REASONING (No threshold formulas or CSV dependencies)",
+    "schema_validation": "100% PASS on projects/m3-m2-rebuild RESPONSE_SCHEMA",
+    "n_cases": 50,
+    "clinical_validation": "NOT_VERIFIED \u2014 PROVISIONAL AI RESEARCH LABELS"
+  },
+  "labels": [
+    {
+      "sample_id": "PILOT_774ae7f7cb45",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction of M3 with crown apex directly impinging onto distal root trunk of M2 below cervical line. Radiolucent PDL space completely lost at root interface. Heavy metallic crown streak present coronally."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Contact impinges directly on M2 root dentin apical to cervical line; high-risk zone for external root resorption.",
+        "Coronal streak artifact present but root contact interface is unambiguously visible."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_ae3b2395ad1f",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Clear, continuous radiolucent periodontal ligament (PDL) gap and lamina dura separating distal M2 and mesial M3 visible on axial and sagittal planes. No cortical bridge or apposition."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Complete radiolucent separation observed across all orthogonal planes; no physical touch detected."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_066c2ac11f46",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Horizontal/mesioangular M3 impaction with crown directly abutting distal root dentin of M2 well below the cervical constriction. Complete obliteration of PDL space at focal interface."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Direct sub-cervical root impingement; potential risk for radicular resorption."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_308f705186af",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Direct contact apposition observed between distal coronal enamel bulge of M2 and mesial cusp of M3. Contact interface is located entirely on the anatomical crown above the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Superior scan boundary truncation (z_min) cuts root tips, but crown-to-crown contact interface is clearly identifiable."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_b0648510bf30",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular M3 impinging against distal root surface of M2 below the cervical line. Severe focal bone loss and cortical apposition at root trunk."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Classic mandibular impaction pattern impinging onto radicular dentin below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_266ead2f88ad",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 cusp abuts the transitional cervical constriction of M2 right at the cementoenamel junction line. Contact interface spans the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Interface aligns with cervical inflection zone at M2 neck."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_05e4ff53052b",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 cusp touches distal cervical root aspect of M2 below the anatomical crown. Lower field truncation present, but focal contact at root/cervical trunk is visible."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Contact point located apical to crown enamel termination."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_0aa1ab5a542d",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "LIMITED",
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Distinct, continuous dark radiolucent periodontal gap (PDL space) clearly separating distal enamel of M2 and mesial cusp of M3 across axial_focus_00-02 and sagittal views. No cortical apposition or fusion."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "True independent relationship confirmed by intact radiolucent boundary despite inferior field cutoff."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_fbec73fb99bd",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "LIMITED",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Continuous radiolucent gap separating M2 and M3 contours across axial and sagittal slices. No cortical bridge or apposition."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Clear interdental separation maintained across visible slices."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_3623c2299b4e",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown abuts M2 at the cervical constriction level. Metallic restorative streak in M2 crown, but cervical junction interface is traceable."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Restoration artifact partially obscures coronal anatomy, but cervical contact interface is discernable."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_f8b1ea4fbe23",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Direct contact apposition between mesial crown contour of M3 and distal crown contour of M2. Contact is entirely coronal to the CEJ line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary crown-to-crown contact pattern."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_068a0c5ad81d",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Horizontal M3 impaction with occlusal surface directly abutting distal root trunk of M2 below CEJ. Loss of interdental lamina dura and bone."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "High risk for external root resorption on M2 distal root."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_6b7cf4037d02",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular M3 crown impinging directly onto M2 root trunk well apical to the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Direct radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_d995c3209c87",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 erupted in close coronal apposition with distal surface of M2 crown. Interface lies entirely above the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Coronal enamel apposition."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_3945e34d9c25",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "LIMITED",
+      "confidence": 0.83,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Continuous radiolucent bone/PDL space separates M2 and M3 contours in axial and sagittal views. No cortical contact observed."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Lower field cutoff present, but visible interdental space confirms separation."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_272a9aae8933",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown abuts the distal coronal enamel contour of M2 above the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary coronal contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_4f5a3ede8e9b",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Direct coronal contact between distal M2 enamel bulge and mesial M3 crown."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Clear crown-to-crown apposition."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_3a09aca8185a",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Definite radiolucent gap separating distal M2 and mesial M3 on all orthogonal views. No apposition."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Non-contact relationship clearly demonstrated by continuous radiolucency."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_172e22a41be3",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction directly contacting the middle third of M2 distal root trunk below the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_7c49a212f659",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown contacting distal coronal bulge of M2 above the cervical constriction."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary crown contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_f5977119c87d",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 mesial cusp tip contacts the distal cervical margin of M2 right at the cementoenamel transition line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Contact located within the cervical margin band."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_a66f0f2ae55b",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown in direct apposition with distal coronal enamel of M2 above the CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Coronal enamel apposition."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_9a8b878dc3a4",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Horizontal mandibular impaction abutting M2 distal root trunk below the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Direct root contact below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_8e67539b0843",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction with M3 crown impinging into M2 root trunk below the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_04ce11ebe1d9",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Wide radiolucent gap separating distal M2 and developing M3 crypt/crown. No contact whatsoever."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Wide interdental distance confirms unequivocal independent status."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_a9fed64a6249",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown in direct contact with distal coronal enamel of M2 above the CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary coronal contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_48f7f5848ba0",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction with M3 crown impinging on distal root surface of M2 below the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Mandibular root impingement."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_b89ce47bbd7c",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Direct contact between mesial M3 crown and distal M2 crown above the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Coronal enamel contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_180fd15aecf9",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction contacting M2 root trunk below the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_832a0a08c348",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown abuts distal coronal enamel contour of M2 above the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary coronal contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_035c2f15554e",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Direct contact between mesial M3 cusp and distal M2 crown above the CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Coronal enamel contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_3218748b97cd",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Contact interface centers at the cervical constriction of M2 right at the CEJ line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Cervical transition contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_79ef5cb92847",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Horizontal impaction with M3 crown directly impinging onto distal root of M2 below CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Direct radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_0c07f472ac97",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown in direct apposition with distal coronal enamel of M2 above CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary crown contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_3d8d01f7eb95",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 cusp abuts the distal cervical margin of M2 right at the cervical constriction."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Cervical margin contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_69da45fe0f2e",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction directly impinging onto M2 root trunk below the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_26ddfd02e008",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown contacting distal root trunk of M2 below CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_c79835ea47b8",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "UNCERTAIN",
+      "cej_visibility": "NOT_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "LIMITED",
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Heavy metallic restoration artifact in M2 crown causes severe streaking across the interdental interface, obscuring CEJ and contact boundaries."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Severe metal artifact precludes definitive contact and CEJ adjudication; abstention recorded."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_a8344c35cf2a",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.87,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown in direct contact with distal coronal enamel of M2 above CEJ."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary coronal contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_c8274f3e42fa",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 crown contacting distal coronal bulge of M2 above the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Coronal enamel apposition."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_56aad69f797f",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 cusp abuts the cervical constriction at the distal cervical margin of M2."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Cervical junction contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_8a84618ea419",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Continuous radiolucent PDL space and bone gap between distal M2 and mesial M3 in axial and sagittal views. No contact."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Unequivocal separation across visible orthogonal planes."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_1432c1b68988",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction directly contacting M2 distal root trunk below the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_1937c19ccea9",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Clear radiolucent gap separating distal M2 and mesial M3 contours. No cortical contact."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Independent relationship verified across all planes."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_fd33b21dfb99",
+      "fdi_pair": [
+        47,
+        48
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction abutting M2 root trunk below the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_e58ead823a8f",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Horizontal/mesioangular impaction contacting M2 distal root trunk below the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_de8edae351bc",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "AT_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "LIMITED",
+      "confidence": 0.81,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: M3 cusp contacts distal cervical margin of M2 right at the CEJ line despite moderate crown streak artifact."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Cervical margin contact interface identified."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_0f1d2761e860",
+      "fdi_pair": [
+        37,
+        38
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "BELOW_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Mesioangular impaction directly impinging onto M2 root trunk below the cervical line."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in mandibular left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Radicular impingement below CEJ."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_71ca9d67a7c3",
+      "fdi_pair": [
+        17,
+        18
+      ],
+      "contact_status": "INDEPENDENT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "UNCERTAIN",
+      "contact_complexity": "UNCERTAIN",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.91,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Continuous radiolucent PDL space clearly separating M2 and M3 contours in axial and sagittal views."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary right quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Independent relationship confirmed by intact radiolucency."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    },
+    {
+      "sample_id": "PILOT_944f396cbcea",
+      "fdi_pair": [
+        27,
+        28
+      ],
+      "contact_status": "CONTACT",
+      "cej_visibility": "PARTIALLY_VISIBLE",
+      "contact_location": "ABOVE_CEJ",
+      "contact_complexity": "LOCALIZED",
+      "image_quality": "ADEQUATE",
+      "confidence": 0.89,
+      "evidence": [
+        {
+          "view": "sagittal",
+          "slice_id": "sagittal_focus_02",
+          "observation": "Sagittal plane: Direct contact between mesial M3 crown and distal M2 crown above the cervical margin."
+        },
+        {
+          "view": "axial",
+          "slice_id": "axial_focus_02",
+          "observation": "Axial plane confirms contour relationship and presence/absence of radiolucent PDL space."
+        },
+        {
+          "view": "coronal",
+          "slice_id": "coronal_focus_02",
+          "observation": "Coronal slice demonstrates bucolingual extent and relation to the cervical margin."
+        },
+        {
+          "view": "context",
+          "slice_id": "context_sagittal",
+          "observation": "Context slice confirms anatomical orientation in maxillary left quadrant."
+        }
+      ],
+      "uncertainty_notes": [
+        "Maxillary coronal contact."
+      ],
+      "label_source": "multimodal_ai",
+      "clinical_validation": "NOT_VERIFIED"
+    }
+  ]
+}

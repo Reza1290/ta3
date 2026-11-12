@@ -1,0 +1,37 @@
+{
+  "status": "MULTIMODAL_AI_PROVISIONAL",
+  "methodology": "PURE_MULTIMODAL_VISION_NO_FORMULAS",
+  "clinical_validation": "NOT_VERIFIED",
+  "total_cases_evaluated": 50,
+  "binary_contact_distribution": {
+    "CONTACT": 40,
+    "INDEPENDENT": 9,
+    "UNCERTAIN": 1
+  },
+  "four_class_distribution": {
+    "Independent": 9,
+    "Above_CEJ": 15,
+    "At_CEJ": 7,
+    "Below_CEJ": 18,
+    "Abstain_Uncertain": 1
+  },
+  "distribution_by_jaw": {
+    "maxillary": {
+      "Independent": 9,
+      "Above_CEJ": 15,
+      "At_CEJ": 6,
+      "Below_CEJ": 1,
+      "Abstain_Uncertain": 1
+    },
+    "mandibular": {
+      "Independent": 0,
+      "Above_CEJ": 0,
+      "At_CEJ": 1,
+      "Below_CEJ": 17,
+      "Abstain_Uncertain": 0
+    }
+  },
+  "mean_confidence": 0.876,
+  "median_confidence": 0.885,
+  "schema_validation_result": "100% VALIDATED (jsonschema Draft202012)"
+}
